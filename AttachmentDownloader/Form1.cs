@@ -82,7 +82,7 @@ namespace AttachmentDownloader
             options.Port = textBox_port.Text;
 
 
-            Downloader downloader = new Downloader(options);
+            DownloaderViaPython downloader = new DownloaderViaPython(options);
 
             downloader.ExecuteWithProccess();
 
